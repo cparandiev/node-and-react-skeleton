@@ -7,7 +7,8 @@ Installing
 Make sure you have the following engines installed locally:
 
   * [Node][1]
-  * [NPM][2] ... Node.js' package manager
+  * [NPM][2]
+  * [MongoDB][3]
 
 Next, download the code and run the following to download the dependencies:
 
@@ -37,4 +38,5 @@ Finally, open up a browser and view the results:
 
   [1]: http://nodejs.org/
   [2]: http://npmjs.org/
-
+  [3]: https://www.mongodb.com/
+ 
