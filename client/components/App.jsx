@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import Header from '../components/Header';
+import Routes from '../routes/Routes';
 
 export default class App extends React.Component {
   render() {
@@ -8,8 +10,9 @@ export default class App extends React.Component {
       .catch(console.error)
 
     return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello world</h1>
+      <div className="App">
+        <Header/>
+        <Routes/>
       </div>);
   }
 }
